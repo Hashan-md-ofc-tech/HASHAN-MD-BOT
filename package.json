@@ -1,12 +1,12 @@
 {
-  "name": "Induwa-MD",
+  "name": "Hashan-MD",
   "version": "1.0",
-  "description": "A WhatsApp bot created by Sadaru",
+  "description": "A WhatsApp bot created by Hashan",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Induwa-MD",
-    "stop": "pm2 stop Induwa-MD",
-    "restart": "pm2 restart Induwa-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Hashan-MD",
+    "stop": "pm2 stop Hashan-MD",
+    "restart": "pm2 restart Hashan-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "6.6.0",
