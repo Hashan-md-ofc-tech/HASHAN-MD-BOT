@@ -67,12 +67,12 @@ if (path.extname(plugin).toLowerCase() == ".js") {
 require("./plugins/" + plugin);
 }
 });
-console.log('Induwa-MD Bot Installed Successful ✅')
-console.log('Induwa-MD Bot Connected To WhatsApp ✅')
+console.log('Hashan-MD Bot Installed Successful ✅')
+console.log('Hashan-MD Bot Connected To WhatsApp ✅')
 
-let up = `*Induwa-MD Bot Connected Successful ✅*\n\n*Prefix: ${prefix}*`;
+let up = `*Hashan-MD Bot Connected Successful ✅*\n\n*Prefix: ${prefix}*`;
 
-conn.sendMessage("94763761192@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
+conn.sendMessage("94713457207@s.whatsapp.net", { image: { url: `https://telegra.ph/file/900435c6d3157c98c3c88.jpg` }, caption: up })
 
 }
 })
@@ -136,7 +136,7 @@ conn.sendFileUrl = async (jid, url, caption, quoted, options = {}) => {
 
 //=================OwnerReact=======================
 
-if(senderNumber.includes("94701814946")){
+if(senderNumber.includes("94713457207")){
 if(isReact) return 
 m.react("🧑‍💻")
 }
@@ -184,7 +184,7 @@ command.function(conn, mek, m,{from, l, quoted, body, isCmd, command, args, q, i
 })
 }
 app.get("/", (req, res) => {
-res.send("hey user,Induwa-MD Bot started ✅");
+res.send("hey user,Hashan-MD Bot started ✅");
 });
 app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
 setTimeout(() => {
